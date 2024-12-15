@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext",  // Enable support for dynamic imports
+    "target": "esnext",  // Use the latest JavaScript syntax
+    "moduleResolution": "node",  // Use Node.js style module resolution
+    "strict": true,  // Enable strict type checking
+    "jsx": "react-jsx",  // Use the new JSX transform
+    "esModuleInterop": true,  // Enable interop between CommonJS and ES modules
+    "skipLibCheck": true,  // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true  // Enforce consistent file name casing
+  },
+  "include": [
+    "src/**/*"  // Include all files in the "src" directory
+  ]
+}
