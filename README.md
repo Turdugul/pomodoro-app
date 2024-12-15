@@ -35,3 +35,7 @@ bash
 Copy code
 npm run dev
 
+Usage
+Set session and break times via settings
+Start the timer, and control it with pause or reset
+Audio will play when a session or break ends
